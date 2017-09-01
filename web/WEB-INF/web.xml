@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <!--给你的servlet取名，任意的-->
+        <servlet-name>login1</servlet-name>
+        <!--指明servlet的路径，（包名+类名）-->
+        <servlet-class>siner.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <!--给你的servlet取名，任意的-->
+        <servlet-name>login1</servlet-name>
+        <!--这是在浏览器中输入的访问该servlet的url，任意的-->
+        <url-pattern>/login1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!--给你的servlet取名，任意的-->
+        <servlet-name>logincl1</servlet-name>
+        <!--指明servlet的路径，（包名+类名）-->
+        <servlet-class>siner.LoginCL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <!--给你的servlet取名，任意的-->
+        <servlet-name>logincl1</servlet-name>
+        <!--这是在浏览器中输入的访问该servlet的url，任意的-->
+        <url-pattern>/logincl1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!--给你的servlet取名，任意的-->
+        <servlet-name>main1</servlet-name>
+        <!--指明servlet的路径，（包名+类名）-->
+        <servlet-class>siner.Main</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <!--给你的servlet取名，任意的-->
+        <servlet-name>main1</servlet-name>
+        <!--这是在浏览器中输入的访问该servlet的url，任意的-->
+        <url-pattern>/main1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!--给你的servlet取名，任意的-->
+        <servlet-name>clerror1</servlet-name>
+        <!--指明servlet的路径，（包名+类名）-->
+        <servlet-class>siner.CLError</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <!--给你的servlet取名，任意的-->
+        <servlet-name>clerror1</servlet-name>
+        <!--这是在浏览器中输入的访问该servlet的url，任意的-->
+        <url-pattern>/clerror1</url-pattern>
+    </servlet-mapping>
+
+</web-app>
