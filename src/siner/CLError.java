@@ -41,7 +41,7 @@ public class CLError extends HttpServlet {
                 //从客户端得到所有sookie信息
                 Cookie[] allCookies = req.getCookies();
 
-                int i = 0;
+                int i = 0;int s=0;
 
                 //如果allCookies不为空
                 if (allCookies != null) {
